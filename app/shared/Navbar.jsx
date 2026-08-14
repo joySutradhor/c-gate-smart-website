@@ -25,7 +25,7 @@ const menuItems = [
         title: "Aluminium Gates",
         description: "Lightweight, strong and low maintenance",
         href: "/aluminium-gates",
-        image: "/h-nav-assets/gates/Aluminium-gate.jfif",
+        image: "/h-nav-assets/gates/Aluminium-gate.jpg",
       },
     ],
   },
