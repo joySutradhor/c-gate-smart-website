@@ -232,7 +232,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 lg:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-full text-gray-900 border  border-gray-200 lg:hidden"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <X size={21} /> : <Menu size={21} />}
