@@ -48,7 +48,7 @@ const menuItems = [
         title: "Remote Controls",
         description: "Convenient control for your automated gates",
         href: "/remote-controls",
-        image: "/h-nav-assets/automation/RemoteControls.jfif",
+        image: "/h-nav-assets/automation/RemoteControls.webp",
       },
     ],
   },
