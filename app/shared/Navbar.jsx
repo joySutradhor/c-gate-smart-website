@@ -31,7 +31,7 @@ const menuItems = [
         title: "Composite Gates",
         description: "Modern, durable and low-maintenance gates",
         href: "/composite-gates",
-        image: "/h-nav-assets/gates/composite.jfif",
+        image: "/h-nav-assets/gates/composite.jpg",
       },
     ],
   },
