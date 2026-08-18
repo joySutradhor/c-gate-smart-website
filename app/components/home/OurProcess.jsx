@@ -67,7 +67,7 @@ export default function OurProcess() {
           */}
 
           <h2 className="text-[30px] font-bold leading-[1.12] tracking-[-1px] text-[#1F2937] sm:text-[36px]">
-            From First Conversation
+            From First Contact
             <span className="text-[#415A77]"> to Finished Gate.</span>
           </h2>
 

@@ -19,11 +19,11 @@ export default function Home() {
         <Navbar />
       </nav>
       <Hero />
+      <OurProcess />
       <TrustIntroduction />
       <GateSolutions />
       <GateAutomation />
       <WhyChooseGateSmart />
-      <OurProcess />
       <FeaturedProjects />
       {/* <GateServicing /> */}
       <Testimonials />
