@@ -3,6 +3,7 @@
 import { ArrowUpRight, Mail, MapPin, Phone, Share2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const services = [
   {
@@ -55,6 +56,7 @@ const quickLinks = [
 ];
 
 export default function Footer() {
+   const [showMore, setShowMore] = useState(false);
   return (
     <footer className="bg-[#182433] text-white">
       {/* =========================================
@@ -83,11 +85,51 @@ export default function Footer() {
 
             {/* Description - 14px */}
 
-            <p className="mt-5 max-w-[350px] text-sm leading-6 text-[#AAB6C2]">
-              Bespoke gates, advanced automation and reliable servicing designed
-              to improve the security, convenience and appearance of your
-              property.
-            </p>
+            <div className="mt-5 max-w-[350px] text-sm leading-6 text-[#AAB6C2]">
+              <p className="font-medium text-base text-white/80">Gate Smart Branding & Trading Information</p>
+
+              <p className="mt-3 ">
+                The Gate Smart name, logo and associated branding are used for
+                marketing and promotional purposes.
+              </p>
+
+              {showMore && (
+                <>
+                  <p className="mt-3">
+                    Gate Smart may operate as a trading or marketing name, and
+                    the legal name shown on quotations, invoices, contracts or
+                    bank/payment details may therefore be different from the
+                    Gate Smart brand name.
+                  </p>
+
+                  <p className="mt-3">
+                    Where applicable, the legal entity or individual responsible
+                    for the work will be clearly identified on your quotation or
+                    invoice.
+                  </p>
+
+                  <p className="mt-3">
+                    Please ensure that payments are made only to the bank or
+                    payment details shown on an official quotation or invoice
+                    issued to you.
+                  </p>
+
+                  <p className="mt-3">
+                    If you are unsure about any payment details or the identity
+                    of the business providing your services, please contact us
+                    before making payment.
+                  </p>
+                </>
+              )}
+
+              <button
+                type="button"
+                onClick={() => setShowMore(!showMore)}
+                className="mt-3 font-medium text-white underline underline-offset-4 transition hover:text-[#AAB6C2] cursor-pointer"
+              >
+                {showMore ? "Read Less" : "Read More"}
+              </button>
+            </div>
 
             {/* Social Icons */}
 
