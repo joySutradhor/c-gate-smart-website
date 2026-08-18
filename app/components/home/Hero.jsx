@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import {
   ArrowRight,
   Mail,
@@ -9,6 +8,7 @@ import {
   Zap,
   Wrench,
   WrenchOff,
+  SmartphoneNfc,
 } from "lucide-react";
 
 const services = [
@@ -27,6 +27,10 @@ const services = [
   {
     icon: WrenchOff,
     title: "Repair Service",
+  },
+  {
+    icon: SmartphoneNfc,
+    title: "Intercom",
   },
 ];
 
@@ -111,7 +115,7 @@ export default function Hero() {
                   SERVICES
               ================================== */}
 
-              <div className="mt-8 grid max-w-[600px] xl:max-w-[70vw] gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              <div className="mt-8 grid max-w-[600px] xl:max-w-[70vw] gap-3 sm:grid-cols-3 lg:grid-cols-3 cursor-pointer">
                 {services.map((service) => {
                   const Icon = service.icon;
 

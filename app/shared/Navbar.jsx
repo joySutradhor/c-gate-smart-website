@@ -130,9 +130,9 @@ export default function Navbar() {
                 {openMenu === menu.title && (
                   <div
                     onMouseLeave={() => setOpenMenu(null)}
-                    className="absolute left-1/2 top-[48px] w-[760px] -translate-x-1/2 rounded-2xl border border-gray-100 bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.10)]"
+                    className="absolute left-1/2 top-[48px] w-[760px] xl:w-[850px] -translate-x-1/2 rounded-2xl border border-gray-100 bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.10)]"
                   >
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-3 xl:grid-cols-4 gap-4">
                       {menu.items.map((item) => (
                         <Link
                           href={item.href}
