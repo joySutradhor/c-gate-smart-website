@@ -25,7 +25,7 @@ export default function Home() {
       <WhyChooseGateSmart />
       <OurProcess />
       <FeaturedProjects />
-      <GateServicing />
+      {/* <GateServicing /> */}
       <Testimonials />
       <FAQSection />
       <FinalCTA />

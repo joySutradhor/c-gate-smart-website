@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   Zap,
   Wrench,
+  WrenchOff,
 } from "lucide-react";
 
 const services = [
@@ -22,6 +23,10 @@ const services = [
   {
     icon: Wrench,
     title: "Gate Servicing",
+  },
+  {
+    icon: WrenchOff,
+    title: "Repair Service",
   },
 ];
 
@@ -95,7 +100,7 @@ export default function Hero() {
 
               <p className="mt-6 max-w-[600px] text-base leading-7 text-[#667085]">
                 Bespoke gates, intelligent automation and expert servicing for
-                homes and businesses across the UK.
+                homes and businesses across Buckinghamshire and the surrounding counties.
                 <span className="font-semibold text-[#1F2937]">
                   {" "}
                   Built for security. Designed to last.
@@ -106,7 +111,7 @@ export default function Hero() {
                   SERVICES
               ================================== */}
 
-              <div className="mt-8 grid max-w-[600px] gap-3 sm:grid-cols-3">
+              <div className="mt-8 grid max-w-[600px] xl:max-w-[70vw] gap-3 sm:grid-cols-3 lg:grid-cols-4">
                 {services.map((service) => {
                   const Icon = service.icon;
 
@@ -199,7 +204,7 @@ export default function Hero() {
           BELOW HERO
       ========================================== */}
 
-      <div className="mx-auto max-w-[1440px] px-4 py-10 sm:px-6 lg:px-8">
+      {/* <div className="mx-auto max-w-[1440px] px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 border-b border-[#E4E9EE] pb-10 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
@@ -222,7 +227,7 @@ export default function Hero() {
             />
           </Link>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

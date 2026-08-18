@@ -110,7 +110,7 @@ export default function TrustIntroduction() {
               RIGHT TRUST POINTS
           ====================================== */}
 
-          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1 ">
 
             {trustPoints.map((point) => (
 
@@ -158,11 +158,11 @@ export default function TrustIntroduction() {
             BOTTOM TRUST STRIP
         ========================================== */}
 
-        <div className="mt-14 border-t border-[#E4E9EE] pt-8 lg:mt-20">
+        {/* <div className="mt-14 border-t border-[#E4E9EE] pt-8 lg:mt-20">
 
           <div className="grid gap-6 sm:grid-cols-3">
 
-            {/* Item 01 */}
+
 
             <div className="flex items-center gap-4">
 
@@ -187,7 +187,7 @@ export default function TrustIntroduction() {
             </div>
 
 
-            {/* Item 02 */}
+    
 
             <div className="flex items-center gap-4">
 
@@ -212,7 +212,7 @@ export default function TrustIntroduction() {
             </div>
 
 
-            {/* Item 03 */}
+   
 
             <div className="flex items-center gap-4">
 
@@ -238,7 +238,7 @@ export default function TrustIntroduction() {
 
           </div>
 
-        </div>
+        </div> */}
 
       </div>
 
