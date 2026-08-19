@@ -10,27 +10,33 @@ import {
   WrenchOff,
   SmartphoneNfc,
 } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
     icon: ShieldCheck,
     title: "Bespoke Gates",
+    url: "/bespoke-gates",
   },
   {
     icon: Zap,
     title: "Gate Automation",
+    url: "/gate-automation",
   },
   {
     icon: Wrench,
     title: "Gate Servicing",
+    url: "/gate-servicing",
   },
   {
     icon: WrenchOff,
     title: "Repair Service",
+    url: "/repair-service",
   },
   {
     icon: SmartphoneNfc,
     title: "Intercom",
+    url: "/intercom",
   },
 ];
 
@@ -104,7 +110,8 @@ export default function Hero() {
 
               <p className="mt-6 max-w-[600px] text-base leading-7 text-[#667085]">
                 Bespoke gates, intelligent automation and expert servicing for
-                homes and businesses across Buckinghamshire and the surrounding counties.
+                homes and businesses across Buckinghamshire and the surrounding
+                counties.
                 <span className="font-semibold text-[#1F2937]">
                   {" "}
                   Built for security. Designed to last.
@@ -114,24 +121,22 @@ export default function Hero() {
               {/* =================================
                   SERVICES
               ================================== */}
-
               <div className="mt-8 grid max-w-[600px] xl:max-w-[70vw] gap-3 sm:grid-cols-3 lg:grid-cols-3 cursor-pointer">
                 {services.map((service) => {
                   const Icon = service.icon;
 
                   return (
-                    <div
-                      key={service.title}
-                      className="flex items-center gap-3 rounded-xl border border-[#E4E9EE] bg-white/90 px-3 py-3 backdrop-blur-sm"
-                    >
-                      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#EAF0F5] text-[#415A77]">
-                        <Icon size={17} />
-                      </div>
+                    <Link href={service.url} key={service.title}>
+                      <div className="flex items-center gap-3 rounded-xl border border-[#E4E9EE] bg-white/90 px-3 py-3 backdrop-blur-sm">
+                        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#EAF0F5] text-[#415A77]">
+                          <Icon size={17} />
+                        </div>
 
-                      <span className="text-sm font-semibold leading-5 text-[#1F2937]">
-                        {service.title}
-                      </span>
-                    </div>
+                        <span className="text-sm font-semibold leading-5 text-[#1F2937]">
+                          {service.title}
+                        </span>
+                      </div>
+                    </Link>
                   );
                 })}
               </div>
@@ -189,8 +194,6 @@ export default function Hero() {
           {/* =====================================
               BOTTOM LEFT MINI BADGE
           ====================================== */}
-
-          
 
           {/* =====================================
               BOTTOM RIGHT LABEL

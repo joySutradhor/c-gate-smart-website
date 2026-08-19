@@ -194,10 +194,10 @@ export default function Navbar() {
 
             {/* Simple links */}
             <Link
-              href="/gate-servicing"
+              href="/gate-gallery"
               className="text-base font-bold text-gray-800 transition hover:text-gray-500"
             >
-              Servicing
+              Gallery
             </Link>
 
             <Link
@@ -322,11 +322,11 @@ export default function Navbar() {
 
             {/* Normal mobile links */}
             <Link
-              href="/gate-servicing"
+              href="/gate-gallery"
               onClick={() => setMobileOpen(false)}
               className="flex border-b border-gray-100 py-4 text-[16px] font-medium text-gray-900"
             >
-              Servicing
+              Gallery
             </Link>
 
             <Link
