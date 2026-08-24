@@ -127,12 +127,60 @@ export default function Hero() {
 
                   return (
                     <Link href={service.url} key={service.title}>
-                      <div className="flex items-center gap-3 rounded-xl border border-[#E4E9EE] bg-white/90 px-3 py-3 backdrop-blur-sm">
-                        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#EAF0F5] text-[#415A77]">
-                          <Icon size={17} />
+                      <div
+                        className="
+      group
+      flex
+      items-center
+      gap-3
+      rounded-xl
+      border
+      border-[#E4E9EE]
+      bg-[#415A77]
+      px-3
+      py-3
+      text-white
+      transition-all
+      duration-300
+      hover:bg-white
+      hover:shadow-sm
+    "
+                      >
+                        {/* Icon */}
+                        <div
+                          className="
+        flex
+        h-9
+        w-9
+        shrink-0
+        items-center
+        justify-center
+        rounded-lg
+        border
+        border-white/10
+        text-white
+        transition-all
+        duration-300
+        group-hover:border-[#E4E9EE]
+        group-hover:bg-[#EAF0F5]
+        group-hover:text-[#415A77]
+      "
+                        >
+                          <Icon size={17} strokeWidth={1.8} />
                         </div>
 
-                        <span className="text-sm font-semibold leading-5 text-[#1F2937]">
+                        {/* Title */}
+                        <span
+                          className="
+        text-sm
+        font-semibold
+        leading-5
+        text-white
+        transition-colors
+        duration-300
+        group-hover:text-[#1F2937]
+      "
+                        >
                           {service.title}
                         </span>
                       </div>
@@ -145,12 +193,12 @@ export default function Hero() {
                   CTA AREA
               ================================== */}
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-16 flex flex-col gap-3 sm:flex-row">
                 {/* Call CTA */}
 
                 <a
                   href="tel:+4401494 578656"
-                  className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#415A77] px-6 text-sm font-semibold text-white transition hover:bg-[#344B65]"
+                  className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#D8E0E7] bg-white px-6 text-sm font-semibold text-[#1F2937] transition hover:border-[#415A77] hover:text-[#415A77] "
                 >
                   <Phone size={16} />
                   Call Us Today
