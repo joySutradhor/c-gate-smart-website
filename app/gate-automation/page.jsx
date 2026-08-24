@@ -11,7 +11,7 @@ const Page = () => {
   return (
     <main>
       <GateAutomationHero />
-      <AutomationOverview />
+      {/* <AutomationOverview /> */}
       <SwingGateAutomation />
       <AboveGroundVsUnderground />
       <SlidingGateAutomation />

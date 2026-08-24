@@ -16,10 +16,10 @@ export default function Home() {
       <Hero />
       <OurProcess />
       <TrustIntroduction />
-      <GateSolutions />
+      {/* <GateSolutions /> */}
       <GateAutomation />
-      <WhyChooseGateSmart />
-      <FeaturedProjects />
+      {/* <WhyChooseGateSmart /> */}
+      {/* <FeaturedProjects /> */}
       {/* <GateServicing /> */}
       <Testimonials />
       <FAQSection />

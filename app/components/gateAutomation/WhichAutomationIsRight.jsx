@@ -72,15 +72,17 @@ export default function WhichAutomationIsRight() {
       <div className="mx-auto max-w-[1440px] px-5 sm:px-6 lg:px-8">
         {/* Main Card */}
         <div className="overflow-hidden rounded-[28px] border border-[#E4E9EE] bg-white shadow-[0_12px_40px_rgba(24,36,51,0.06)]">
-          <div className="grid lg:grid-cols-[0.8fr_1.5fr]">
+          <div 
+          // className="grid lg:grid-cols-[0.8fr_1.5fr]"
+          >
             {/* Left Content */}
-            <div className="relative overflow-hidden bg-[#182433] px-7 py-10 sm:px-10 sm:py-12 lg:px-12 lg:py-14">
-              {/* Decorative Circle */}
+            {/* <div className="relative overflow-hidden bg-[#182433] px-7 py-10 sm:px-10 sm:py-12 lg:px-12 lg:py-14">
+             
               <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full border border-white/[0.08]" />
               <div className="absolute -bottom-32 -left-24 h-72 w-72 rounded-full border border-white/[0.06]" />
 
               <div className="relative z-10">
-                {/* Small Label */}
+              
                 <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-3.5 py-2">
                   <span className="h-1.5 w-1.5 rounded-full bg-[#7EA4C8]" />
 
@@ -89,7 +91,6 @@ export default function WhichAutomationIsRight() {
                   </span>
                 </div>
 
-                {/* Heading */}
                 <h2 className="mt-7 max-w-md text-3xl font-bold leading-[1.12] tracking-tight text-white sm:text-4xl">
                   Which Gate Automation
                   <span className="block text-[#8DB1D2]">
@@ -97,17 +98,17 @@ export default function WhichAutomationIsRight() {
                   </span>
                 </h2>
 
-                {/* Divider */}
+         
                 <div className="mt-6 h-px w-16 bg-[#7EA4C8]" />
 
-                {/* Description */}
+          
                 <p className="mt-6 max-w-md text-sm leading-7 text-white/65 sm:text-base">
                   Choosing the right automation system depends on more than just
                   the type of gate. We assess your property and requirements
                   before recommending a suitable solution.
                 </p>
 
-                {/* Bottom Note */}
+             
                 <div className="mt-10 flex items-start gap-3 border-t border-white/10 pt-6">
                   <ShieldCheck
                     size={21}
@@ -121,7 +122,7 @@ export default function WhichAutomationIsRight() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Right Content */}
             <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-12">
@@ -132,7 +133,7 @@ export default function WhichAutomationIsRight() {
                     What We Consider
                   </p>
 
-                  <h3 className="mt-2 text-xl font-bold text-[#182433] sm:text-2xl">
+                  <h3 className="mt-2 text-3xl font-bold tracking-tight text-[#182433] sm:text-4xl">
                     10 factors we assess
                   </h3>
                 </div>
