@@ -9,15 +9,10 @@ import OurProcess from "./components/home/OurProcess";
 import Testimonials from "./components/home/Testimonials";
 import TrustIntroduction from "./components/home/TrustIntroduction";
 import WhyChooseGateSmart from "./components/home/WhyChooseGateSmart";
-import Footer from "./shared/Footer";
-import Navbar from "./shared/Navbar";
 
 export default function Home() {
   return (
     <main>
-      <nav>
-        <Navbar />
-      </nav>
       <Hero />
       <OurProcess />
       <TrustIntroduction />
@@ -29,7 +24,6 @@ export default function Home() {
       <Testimonials />
       <FAQSection />
       <FinalCTA />
-      <Footer />
     </main>
   );
 }
