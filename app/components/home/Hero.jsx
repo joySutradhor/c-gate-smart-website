@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  ArrowRight,
   Mail,
   Phone,
   ShieldCheck,
@@ -9,7 +8,9 @@ import {
   Wrench,
   WrenchOff,
   SmartphoneNfc,
+  DoorOpen,
 } from "lucide-react";
+
 import Link from "next/link";
 
 const services = [
@@ -37,6 +38,11 @@ const services = [
     icon: SmartphoneNfc,
     title: "Intercom",
     url: "/intercom",
+  },
+  {
+    icon: DoorOpen,
+    title: "Gate refurbishment",
+    url: "/gate-refurbishment",
   },
 ];
 
