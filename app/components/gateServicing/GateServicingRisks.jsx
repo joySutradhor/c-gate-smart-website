@@ -42,19 +42,19 @@ const risks = [
 
 const riskImages = [
   {
-    src: "/images/gate-wear.jpg",
+    src: "/gate-servicing/wear-and-tear.jpg",
     alt: "Worn gate mechanism",
     label: "Wear & tear",
     text: "Components can deteriorate gradually without regular maintenance.",
   },
   {
-    src: "/images/gate-repair.jpg",
+    src: "/gate-servicing/small-issues.jpg",
     alt: "Damaged gate component",
     label: "Small issues",
     text: "Minor faults can develop into expensive problems over time.",
   },
   {
-    src: "/images/gate-engineer.jpg",
+    src: "/gate-servicing/stay-protected.jpg",
     alt: "Gate Smart engineer servicing an automated gate",
     label: "Stay protected",
     text: "Regular servicing keeps your gate safe, reliable and ready to use.",

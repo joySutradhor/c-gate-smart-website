@@ -10,7 +10,7 @@ const servicingLevels = [
     frequency: "Service once per year",
     description:
       "A suitable servicing interval for typical residential properties with lighter daily gate usage.",
-    image: "/gate-servicing/residential-gate.jpg",
+    image: "/gate-servicing/swing_gate.webp",
     tag: "Light Usage",
   },
   {
@@ -21,7 +21,7 @@ const servicingLevels = [
     frequency: "Service twice per year",
     description:
       "Recommended for busy homes, apartment blocks and smaller commercial properties with regular daily use.",
-    image: "/gate-servicing/commercial-gate.jpg",
+    image: "/gate-servicing/BI-FOLDGATE.webp",
     tag: "Regular Usage",
   },
   {
@@ -32,7 +32,7 @@ const servicingLevels = [
     frequency: "Service four times per year",
     description:
       "Designed for commercial, industrial and high-traffic sites where the gate operates frequently throughout the day.",
-    image: "/gate-servicing/industrial-gate.jpg",
+    image: "/gate-servicing/high-use-commercial-gate.jpg",
     tag: "High Usage",
   },
 ];

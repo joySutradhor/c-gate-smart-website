@@ -48,7 +48,7 @@ export default function WhyGateServicing() {
             <div className="overflow-hidden rounded-[28px] border border-[#E4E9EE] bg-white p-2 shadow-[0_15px_45px_rgba(24,36,51,0.06)]">
               <div className="relative aspect-[4/4.2] overflow-hidden rounded-[22px]">
                 <Image
-                  src="/gate-servicing/gate-servicing-importance.jpg"
+                  src="/gate-servicing/engineer-gate-servicing.jpg"
                   alt="Gate Smart engineer servicing an automated gate"
                   fill
                   sizes="(max-width: 1024px) 100vw, 45vw"
