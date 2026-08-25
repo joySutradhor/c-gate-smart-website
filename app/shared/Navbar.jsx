@@ -481,6 +481,24 @@ export default function Navbar() {
             </Link>
 
             {/* ===========================================
+                Callout
+            ============================================ */}
+
+            <Link
+              href="/callout-gate-repairs"
+              className="
+                text-base
+                font-bold
+                text-gray-800
+                transition
+                hover:text-gray-500
+              "
+              onClick={() => setOpenMenu(null)}
+            >
+              Callout
+            </Link>
+
+            {/* ===========================================
                 CONTACT
             ============================================ */}
 

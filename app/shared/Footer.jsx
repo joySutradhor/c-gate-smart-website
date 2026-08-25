@@ -7,28 +7,28 @@ import { useState } from "react";
 
 const services = [
   {
-    label: "Metal Gates",
-    href: "/metal-gates",
-  },
-  {
-    label: "Wooden Gates",
-    href: "/wooden-gates",
-  },
-  {
-    label: "Aluminium Gates",
-    href: "/aluminium-gates",
-  },
-  {
-    label: "Driveway Gates",
-    href: "/driveway-gates",
+    label: "Bespoke Gates",
+    href: "/bespoke-gates",
   },
   {
     label: "Gate Automation",
     href: "/gate-automation",
   },
   {
-    label: "Servicing & Repairs",
-    href: "/servicing-repairs",
+    label: "Gate Servicing",
+    href: "/gate-servicing",
+  },
+  {
+    label: "Repair Service",
+    href: "/repair-service",
+  },
+  {
+    label: "Intercom",
+    href: "/intercom",
+  },
+  {
+    label: "Gate refurbishment",
+    href: "/gate-refurbishment",
   },
 ];
 
@@ -38,25 +38,21 @@ const quickLinks = [
     href: "/about",
   },
   {
-    label: "Our Work",
-    href: "/projects",
-  },
-  {
-    label: "How It Works",
-    href: "/how-it-works",
-  },
-  {
-    label: "FAQs",
-    href: "/faqs",
+    label: "Gallery",
+    href: "/gate-gallery",
   },
   {
     label: "Contact",
     href: "/contact",
   },
+  {
+    label: "Terms & Conditions",
+    href: "/terms-and-conditions",
+  },
 ];
 
 export default function Footer() {
-   const [showMore, setShowMore] = useState(false);
+  const [showMore, setShowMore] = useState(false);
   return (
     <footer className="bg-[#182433] text-white">
       {/* =========================================
@@ -86,7 +82,9 @@ export default function Footer() {
             {/* Description - 14px */}
 
             <div className="mt-5 max-w-[350px] text-sm leading-6 text-[#AAB6C2]">
-              <p className="font-medium text-base text-white/80">Gate Smart Branding & Trading Information</p>
+              <p className="font-medium text-base text-white/80">
+                Gate Smart Branding & Trading Information
+              </p>
 
               <p className="mt-3 ">
                 The Gate Smart name, logo and associated branding are used for
@@ -306,32 +304,18 @@ export default function Footer() {
         ========================================== */}
 
         <div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-[#8795A4]">
-            © {new Date().getFullYear()} GateSmart. All rights reserved.
+          <p className="text-sm text-[#8795A4]">
+            © {new Date().getFullYear()} GateSmart. All rights reserved. Developed
+            by{" "}
+            <a
+              href="https://resolveidea.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#AFC0D2] transition hover:text-white"
+            >
+              Resolve Idea
+            </a>
           </p>
-
-          <div className="flex flex-wrap gap-x-5 gap-y-2">
-            <Link
-              href="/privacy-policy"
-              className="text-xs text-[#8795A4] transition hover:text-white"
-            >
-              Privacy Policy
-            </Link>
-
-            <Link
-              href="/terms"
-              className="text-xs text-[#8795A4] transition hover:text-white"
-            >
-              Terms & Conditions
-            </Link>
-
-            <Link
-              href="/cookie-policy"
-              className="text-xs text-[#8795A4] transition hover:text-white"
-            >
-              Cookie Policy
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
