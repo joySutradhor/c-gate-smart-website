@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -126,9 +125,9 @@ export default function ContactPage() {
                 lg:text-[52px]
               "
             >
-              Let&apos;s Create the
+              Let's Talk About
               <span className="block text-[#415A77]">
-                Right Gate for You
+                Your Gate Project
               </span>
             </h1>
 
@@ -146,82 +145,11 @@ export default function ContactPage() {
                 sm:text-[16px]
               "
             >
-              Whether you are looking for a bespoke gate,
-              automated entrance, railings or specialist
-              metalwork, tell us about your project and
-              we&apos;ll be happy to discuss your requirements.
+              WWhether you need a bespoke gate, gate automation, servicing, refurbishment or repairs, we're here to help. Get in touch with our team to discuss your requirements and find the right solution for your home or business.
             </p>
 
 
-            {/* Quick Benefits */}
-
-            <div
-              className="
-                mt-8
-                flex
-                flex-wrap
-                gap-x-6
-                gap-y-3
-              "
-            >
-
-              <div
-                className="
-                  flex
-                  items-center
-                  gap-2
-                  text-[13px]
-                  font-medium
-                  text-[#667085]
-                "
-              >
-                <Check
-                  size={16}
-                  className="text-[#415A77]"
-                />
-
-                Bespoke solutions
-              </div>
-
-
-              <div
-                className="
-                  flex
-                  items-center
-                  gap-2
-                  text-[13px]
-                  font-medium
-                  text-[#667085]
-                "
-              >
-                <Check
-                  size={16}
-                  className="text-[#415A77]"
-                />
-
-                Expert guidance
-              </div>
-
-
-              <div
-                className="
-                  flex
-                  items-center
-                  gap-2
-                  text-[13px]
-                  font-medium
-                  text-[#667085]
-                "
-              >
-                <Check
-                  size={16}
-                  className="text-[#415A77]"
-                />
-
-                Quality craftsmanship
-              </div>
-
-            </div>
+            
 
           </div>
 
