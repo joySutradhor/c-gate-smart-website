@@ -32,13 +32,13 @@ const services = [
     title: "Gate Automation",
     description:
       "Convenient automated solutions for smooth and secure gate operation.",
-    href: "/gates",
+    href: "/gate-automation",
   },
   {
     title: "Railings",
     description:
       "Practical and attractive railing solutions for your property.",
-    href: "/gates",
+    href: "/gate-gallery",
   },
 ];
 
