@@ -56,50 +56,18 @@ export default function ContactPage() {
 
         {/* Decorative Shapes */}
 
-        <div
-          className="
-            pointer-events-none
-            absolute
-            -right-32
-            -top-32
-            h-[420px]
-            w-[420px]
-            rounded-full
-            bg-[#EAF0F5]
-            opacity-70
-            blur-3xl
-          "
-        />
-
-        <div
-          className="
-            pointer-events-none
-            absolute
-            -bottom-40
-            -left-32
-            h-[360px]
-            w-[360px]
-            rounded-full
-            bg-[#EAF0F5]
-            opacity-50
-            blur-3xl
-          "
-        />
+        
 
         <div
           className="
             relative
             mx-auto
             max-w-7xl
-            px-5
-            py-20
-            sm:px-8
-            lg:px-10
-            lg:py-28
+           
           "
         >
 
-          <div className="max-w-3xl">
+          <div className="flex  flex-col items-center justify-center py-20 text-center  lg:py-16 w-full">
 
             {/* Label */}
 

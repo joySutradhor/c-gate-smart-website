@@ -1,11 +1,18 @@
-import React from 'react';
+import React from "react";
+import GatesHero from "../components/gates/GatesHero";
+import GateTypes from "../components/gates/GateTypes";
+import WhichGateIsRight from "../components/gates/WhichGateIsRight";
+import GateAutomationLink from "../components/gates/GateAutomationLink";
 
 const Page = () => {
-    return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <h2> Gates under construction</h2>
-        </div>
-    );
-}
+  return (
+    <main>
+      <GatesHero />
+      <GateTypes />
+      {/* <GateAutomationLink />
+      <WhichGateIsRight /> */}
+    </main>
+  );
+};
 
 export default Page;
