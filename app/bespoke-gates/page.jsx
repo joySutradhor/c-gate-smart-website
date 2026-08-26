@@ -1,11 +1,28 @@
-import React from 'react';
+import React from "react";
+import BespokeGatesHero from "../components/bespoke/BespokeGatesHero";
+import DesignedAroundProperty from "../components/bespoke/esignedAroundProperty";
+import WhatBespokeMeans from "../components/bespoke/WhatBespokeMeans";
+import DesignedAroundYourProperty from "../components/bespoke/DesignedAroundYourProperty";
+import GateDesignAndMaterials from "../components/bespoke/GateDesignAndMaterials";
+import GateAutomation from "../components/bespoke/GateAutomation";
+import BespokeAccessControl from "../components/bespoke/BespokeAccessControl";
+import BespokeDesignToInstallation from "../components/bespoke/BespokeDesignToInstallation";
+import BespokeGatesCTA from "../components/bespoke/BespokeGatesCTA";
 
 const Page = () => {
-    return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <h2 className='text-5xl font-semibold'>Bespoke Gates under construction</h2>
-        </div>
-    );
-}
+  return (
+    <main>
+      <BespokeGatesHero />
+      <DesignedAroundProperty />
+      <WhatBespokeMeans />
+      <DesignedAroundYourProperty />
+      <GateDesignAndMaterials />
+      {/* <GateAutomation /> */}
+      <BespokeAccessControl />
+      {/* <BespokeDesignToInstallation /> */}
+      <BespokeGatesCTA />
+    </main>
+  );
+};
 
 export default Page;
