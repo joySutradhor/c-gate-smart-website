@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="bg-white">
       <AboutHero />
 
       <AboutIntro />

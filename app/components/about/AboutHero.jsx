@@ -11,12 +11,12 @@ const aboutPoints = [
 
 export default function AboutHero() {
   return (
-    <section className="relative overflow-hidden ">
+    <section className="relative overflow-hidden bg-white ">
       {/* =====================================================
           SUBTLE BACKGROUND
       ====================================================== */}
 
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[320px] bg-gradient-to-b from-[#EAF0F5]/70 to-transparent" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[320px] " />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         {/* =====================================================

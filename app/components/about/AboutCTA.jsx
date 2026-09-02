@@ -1,10 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  ArrowUpRight,
-  Phone,
-} from "lucide-react";
+import { ArrowUpRight, Phone } from "lucide-react";
 
 export default function AboutCTA() {
   return (
@@ -14,14 +11,13 @@ export default function AboutCTA() {
         max-w-7xl
         px-5
         pb-16
-
+bg-white
         sm:px-8
-
+         
         lg:px-10
         lg:pb-24
       "
     >
-
       <div
         className="
           relative
@@ -37,7 +33,6 @@ export default function AboutCTA() {
           lg:py-16
         "
       >
-
         <div
           className="
             pointer-events-none
@@ -52,7 +47,6 @@ export default function AboutCTA() {
           "
         />
 
-
         <div
           className="
             relative
@@ -65,9 +59,7 @@ export default function AboutCTA() {
             lg:justify-between
           "
         >
-
           <div className="max-w-2xl">
-
             <span
               className="
                 text-[12px]
@@ -79,7 +71,6 @@ export default function AboutCTA() {
             >
               Let&apos;s Work Together
             </span>
-
 
             <h2
               className="
@@ -96,7 +87,6 @@ export default function AboutCTA() {
               Have a gate project in mind?
             </h2>
 
-
             <p
               className="
                 mt-4
@@ -106,13 +96,10 @@ export default function AboutCTA() {
                 text-[#667085]
               "
             >
-              Talk to the GateSmart team about your
-              requirements and discover what we can
-              create for your property.
+              Talk to the GateSmart team about your requirements and discover
+              what we can create for your property.
             </p>
-
           </div>
-
 
           <div
             className="
@@ -123,7 +110,6 @@ export default function AboutCTA() {
               sm:flex-row
             "
           >
-
             <a
               href="tel:+441494611111"
               className="
@@ -148,7 +134,6 @@ export default function AboutCTA() {
               Call Us
             </a>
 
-
             <Link
               href="/contact"
               className="
@@ -170,13 +155,9 @@ export default function AboutCTA() {
               Get in Touch
               <ArrowUpRight size={16} />
             </Link>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }
