@@ -484,7 +484,7 @@ export default function Navbar() {
                 Callout
             ============================================ */}
 
-            <Link
+            {/* <Link
               href="/callout-gate-repairs"
               className="
                 text-base
@@ -496,7 +496,7 @@ export default function Navbar() {
               onClick={() => setOpenMenu(null)}
             >
               Callout
-            </Link>
+            </Link> */}
 
             {/* ===========================================
                 CONTACT
