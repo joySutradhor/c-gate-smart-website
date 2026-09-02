@@ -22,7 +22,7 @@ export default function Home() {
       {/* <FeaturedProjects /> */}
       {/* <GateServicing /> */}
       <Testimonials />
-      <FAQSection />
+      {/* <FAQSection /> */}
       <FinalCTA />
     </main>
   );

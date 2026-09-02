@@ -9,6 +9,7 @@ import {
   WrenchOff,
   SmartphoneNfc,
   DoorOpen,
+  MessageCircleCheck,
 } from "lucide-react";
 
 import Link from "next/link";
@@ -42,7 +43,8 @@ const services = [
   {
     icon: DoorOpen,
     title: "Gate refurbishment",
-    url: "/gate-refurbishment",
+    // url: "/gate-refurbishment",
+    url: "#",
   },
 ];
 
@@ -53,8 +55,8 @@ export default function Hero() {
           HERO CONTAINER
       ========================================== */}
 
-      <div className="mx-auto max-w-[1440px] px-4 pt-4 sm:px-6 lg:px-8 lg:pt-6">
-        <div className="relative min-h-[650px] overflow-hidden rounded-[28px] bg-[#F8FAFC]">
+      <div className="w-full px-4 pt-4 sm:px-6 lg:px-8 lg:pt-6">
+        <div className="relative min-h-[650px] w-full overflow-hidden rounded-[28px] bg-[#F8FAFC]">
           {/* =====================================
               BACKGROUND VIDEO
           ====================================== */}
@@ -68,42 +70,40 @@ export default function Hero() {
             className="absolute inset-0 h-full w-full object-cover"
           >
             <source src="/videos/gate-hero.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
+            Your browser does not support the video tag
           </video>
 
           {/* =====================================
               VIDEO OVERLAY
           ====================================== */}
 
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/10 lg:from-white lg:via-white/80 lg:to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/20 lg:from-white/95 lg:via-white/70 lg:to-transparent" />
 
           {/* =====================================
               CONTENT
           ====================================== */}
 
-          <div className="relative z-10 flex min-h-[650px] items-center">
-            <div className="w-full px-6 py-14 sm:px-10 lg:w-[62%] lg:px-14 xl:px-20">
+          <div className="relative z-10 flex min-h-[650px] items-center justify-center">
+            <div className="w-full px-6 py-14 text-center sm:px-10 lg:px-14 xl:px-20">
               {/* =================================
                   EYEBROW
               ================================== */}
 
-              <div className="mb-6 flex items-center gap-3">
+              <div className="mb-6 flex items-center justify-center gap-3">
                 <span className="h-px w-8 bg-[#415A77]" />
 
                 <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#415A77]">
                   Gate Specialists
                 </span>
+
+                <span className="h-px w-8 bg-[#415A77]" />
               </div>
 
               {/* =================================
                   HEADING
-
-                  Mobile: 42px
-                  Tablet: 50px
-                  Desktop: 62px
               ================================== */}
 
-              <h1 className="max-w-[680px] text-[42px] font-bold leading-[1.04] tracking-[-2px] text-[#182433] sm:text-[50px] lg:text-[62px]">
+              <h1 className="mx-auto max-w-[680px] text-[42px] font-bold leading-[1.04] tracking-[-2px] text-[#182433] sm:text-[50px] lg:text-[62px]">
                 Gates Designed
                 <br />
                 <span className="text-[#415A77]">Around You.</span>
@@ -111,10 +111,9 @@ export default function Hero() {
 
               {/* =================================
                   DESCRIPTION
-                  16px
               ================================== */}
 
-              <p className="mt-6 max-w-[600px] text-base leading-7 text-[#667085]">
+              <p className="mx-auto mt-6 max-w-[600px] text-base leading-7 text-[#182433] sm:text-lg">
                 Bespoke gates, intelligent automation and expert servicing for
                 homes and businesses across Buckinghamshire and the surrounding
                 counties.
@@ -127,7 +126,8 @@ export default function Hero() {
               {/* =================================
                   SERVICES
               ================================== */}
-              <div className="mt-8 grid max-w-[600px] xl:max-w-[70vw] gap-3 sm:grid-cols-3 lg:grid-cols-3 cursor-pointer">
+
+              <div className="mx-auto mt-8 grid max-w-[900px] grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {services.map((service) => {
                   const Icon = service.icon;
 
@@ -135,42 +135,43 @@ export default function Hero() {
                     <Link href={service.url} key={service.title}>
                       <div
                         className="
-      group
-      flex
-      items-center
-      gap-3
-      rounded-xl
-      border
-      border-[#E4E9EE]
-      bg-[#415A77]
-      px-3
-      py-3
-      text-white
-      transition-all
-      duration-300
-      hover:bg-white
-      hover:shadow-sm
-    "
+                          group
+                          flex
+                          items-center
+                          
+                          gap-3
+                          rounded-xl
+                      
+                          
+                          bg-[#415A77]
+                          px-3
+                          py-3
+                          text-white
+                          transition-all
+                          duration-300
+                          hover:bg-white
+                          hover:shadow-sm
+                        "
                       >
                         {/* Icon */}
                         <div
                           className="
-        flex
-        h-9
-        w-9
-        shrink-0
-        items-center
-        justify-center
-        rounded-lg
-        border
-        border-white/10
-        text-white
-        transition-all
-        duration-300
-        group-hover:border-[#E4E9EE]
-        group-hover:bg-[#EAF0F5]
-        group-hover:text-[#415A77]
-      "
+                            flex
+                            h-9
+                            w-9
+                            shrink-0
+                            items-center
+                            justify-center
+                            rounded-lg
+                            border
+                            border-white/10
+                            text-white
+                            transition-all
+                            duration-300
+                            
+                            group-hover:bg-[#EAF0F5]
+                            group-hover:text-[#415A77]
+                          "
                         >
                           <Icon size={17} strokeWidth={1.8} />
                         </div>
@@ -178,14 +179,14 @@ export default function Hero() {
                         {/* Title */}
                         <span
                           className="
-        text-sm
-        font-semibold
-        leading-5
-        text-white
-        transition-colors
-        duration-300
-        group-hover:text-[#1F2937]
-      "
+                            text-sm
+                            font-semibold
+                            leading-5
+                            text-white
+                            transition-colors
+                            duration-300
+                            group-hover:text-[#1F2937]
+                          "
                         >
                           {service.title}
                         </span>
@@ -199,12 +200,12 @@ export default function Hero() {
                   CTA AREA
               ================================== */}
 
-              <div className="mt-16 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-16 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 {/* Call CTA */}
 
                 <a
-                  href="tel:+4401494 578656"
-                  className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#D8E0E7] bg-white px-6 text-sm font-semibold text-[#1F2937] transition hover:border-[#415A77] hover:text-[#415A77] "
+                  href="tel:+441494578656"
+                  className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#D8E0E7] bg-white px-6 text-sm font-semibold text-[#1F2937] transition hover:border-[#415A77] hover:text-[#415A77]"
                 >
                   <Phone size={16} />
                   Call Us Today
@@ -219,17 +220,29 @@ export default function Hero() {
                   <Mail size={16} />
                   Email Us
                 </a>
+
+                {/* WhatsApp CTA */}
+
+                <a
+                  href="https://wa.me/447968392240"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#D8E0E7] bg-white px-6 text-sm font-semibold text-[#1F2937] transition hover:border-[#415A77] hover:text-[#415A77]"
+                >
+                  <MessageCircleCheck size={16} />
+                  WhatsApp Us
+                </a>
               </div>
 
               {/* =================================
                   CONTACT DETAILS
               ================================== */}
 
-              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
+              <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
                 <div className="flex items-center gap-2">
                   <Phone size={14} className="text-[#415A77]" />
 
-                  <span className="text-sm text-[#667085]">01494 578656</span>
+                  <span className="text-sm text-[#182433]">01494 578656</span>
                 </div>
 
                 <div className="hidden h-4 w-px bg-[#D8E0E7] sm:block" />
@@ -237,17 +250,13 @@ export default function Hero() {
                 <div className="flex items-center gap-2">
                   <Mail size={14} className="text-[#415A77]" />
 
-                  <span className="text-sm text-[#667085]">
+                  <span className="text-sm text-[#182433]">
                     info@gatesmart.co.uk
                   </span>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* =====================================
-              BOTTOM LEFT MINI BADGE
-          ====================================== */}
 
           {/* =====================================
               BOTTOM RIGHT LABEL
@@ -260,35 +269,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* =========================================
-          BELOW HERO
-      ========================================== */}
-
-      {/* <div className="mx-auto max-w-[1440px] px-4 py-10 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-4 border-b border-[#E4E9EE] pb-10 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
-              GateSmart
-            </p>
-
-            <h2 className="mt-1 text-[30px] font-bold leading-tight tracking-[-1px] text-[#1F2937] sm:text-[36px]">
-              Complete Gate Solutions
-            </h2>
-          </div>
-
-          <Link
-            href="/services"
-            className="group inline-flex items-center gap-2 text-sm font-semibold text-[#415A77]"
-          >
-            Explore our services
-            <ArrowRight
-              size={16}
-              className="transition group-hover:translate-x-1"
-            />
-          </Link>
-        </div>
-      </div> */}
     </section>
   );
 }
