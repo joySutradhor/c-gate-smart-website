@@ -2,62 +2,64 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 
+const rootUrl = "http://localhost:3000/";
+
 const coveredAreas = [
   {
     name: "Beaconsfield",
-    href: "https://www.gatesmart.co.uk/beaconsfield-metal-driveway-gates/",
+    href: "/electric-gates-beaconsfield",
   },
   {
     name: "Gerrards Cross",
-    href: "https://www.gatesmart.co.uk/wooden-gates-gerrards-cross/",
+    href: "/wooden-gates-gerrards-cross/",
   },
   {
     name: "Amersham",
-    href: "https://www.gatesmart.co.uk/gatesmart/driveway-gates-railings-amersham/",
+    href: "/gatesmart/driveway-gates-railings-amersham/",
   },
   {
     name: "Great Missenden",
-    href: "https://www.gatesmart.co.uk/metal-wooden-gates-great-missenden/",
+    href: "/metal-wooden-gates-great-missenden/",
   },
   {
     name: "Sunningdale",
-    href: "https://www.gatesmart.co.uk/electric-gates-sunninghill-sunningdale/",
+    href: "/electric-gates-sunninghill-sunningdale/",
   },
   {
     name: "Sunninghill",
-    href: "https://www.gatesmart.co.uk/electric-gates-sunninghill-sunningdale/",
+    href: "/electric-gates-sunninghill-sunningdale/",
   },
   {
     name: "Tring",
-    href: "https://www.gatesmart.co.uk/electric-driveway-gates-tring/",
+    href: "/electric-driveway-gates-tring/",
   },
   {
     name: "High Wycombe",
-    href: "https://www.gatesmart.co.uk/electric-driveway-gates-high-wycombe/",
+    href: "/electric-driveway-gates-high-wycombe/",
   },
   {
     name: "Marlow",
-    href: "https://www.gatesmart.co.uk/marlow-electric-metal-wooden-gates/",
+    href: "/marlow-electric-metal-wooden-gates/",
   },
   {
     name: "Chalfont St Giles",
-    href: "https://www.gatesmart.co.uk/driveway-gates-chalfont-st-giles/",
+    href: "/driveway-gates-chalfont-st-giles/",
   },
   {
     name: "Chalfont St Peter",
-    href: "https://www.gatesmart.co.uk/chalfont-st-peter-electric-metal-wooden-gates/",
+    href: "/chalfont-st-peter-electric-metal-wooden-gates/",
   },
   {
     name: "Ascot",
-    href: "https://www.gatesmart.co.uk/electric-gates-ascot/",
+    href: "/electric-gates-ascot/",
   },
   {
     name: "Prestwood",
-    href: "https://www.gatesmart.co.uk/metal-gates-railings-prestwood/",
+    href: "/metal-gates-railings-prestwood/",
   },
   {
     name: "Bovingdon",
-    href: "https://www.gatesmart.co.uk/gate-installation-bovingdon/",
+    href: "/gate-installation-bovingdon/",
   },
 ];
 
@@ -147,7 +149,7 @@ export default function CalloutCoverageMap() {
               {coveredAreas.map((area) => (
                 <Link
                   key={area.name}
-                  href="#"
+                  href={`${rootUrl}${area.href}`}
                   rel="noopener noreferrer"
                   className="group flex min-h-[52px] items-center justify-between gap-2 rounded-xl border border-[#E4E9EE] bg-white px-3 py-2.5 transition-all duration-300 hover:border-[#415A77]/40 hover:shadow-[0_6px_18px_rgba(24,36,51,0.06)]"
                 >
