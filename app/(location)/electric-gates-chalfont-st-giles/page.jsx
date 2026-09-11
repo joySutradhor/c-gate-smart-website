@@ -4,21 +4,21 @@ import Image from "next/image";
 
 const images = {
   driveway:
-    "/location/chalfont-st-giles/BespokeDrivewayGates.jfif",
+    "/location/chalfont-st-giles/BespokeDrivewayGates.webp",
   metal:
-    "/location/chalfont-st-giles/MetalElectricGates.jfif",
+    "/location/chalfont-st-giles/MetalElectricGates.webp",
   wooden:
-    "/location/chalfont-st-giles/WoodenElectricGates.jfif",
+    "/location/chalfont-st-giles/WoodenElectricGates.webp",
   aluminium:
-    "/location/chalfont-st-giles/AluminiumElectricGates.jfif",
+    "/location/chalfont-st-giles/AluminiumElectricGates.webp",
   swing:
-    "/location/chalfont-st-giles/ModernSwingGates.jfif",
+    "/location/chalfont-st-giles/ModernSwingGates.webp",
   sliding:
-    "/location/chalfont-st-giles/ModernSlidingGates.jfif",
+    "/location/chalfont-st-giles/ModernSlidingGates.webp",
   automation:
-    "/location/chalfont-st-giles/GateAutomationAccessControl.jfif",
+    "/location/chalfont-st-giles/GateAutomationAccessControl.webp",
   servicing:
-    "/location/chalfont-st-giles/ElectricGateServicingRepairs.jfif",
+    "/location/chalfont-st-giles/ElectricGateServicingRepairs.webp",
 };
 
 function SectionLabel({ children }) {
