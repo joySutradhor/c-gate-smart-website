@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 
+// To-do
 const rootUrl = "https://c-gate-smart-website.vercel.app";
 
 const coveredAreas = [

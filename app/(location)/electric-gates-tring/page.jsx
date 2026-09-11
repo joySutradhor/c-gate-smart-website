@@ -4,15 +4,15 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = {
-  hero: "/location/tring/hero.jfif",
-  driveway: "/location/tring/BespokeDrivewayGates.jfif",
-  metal: "/location/tring/BespokeMetalElectricGates.jfif",
-  wood: "/location/tring/AutomatedHardwoodDrivewayGates.jfif",
-  aluminium: "/location/tring/ModernAluminiumElectricGates.jfif",
-  swing: "/location/tring/ModernSwingGates.jfif",
-  sliding: "/location/tring/ModernSlidingGates.jfif",
-  automation: "/location/tring/ElectricGateAutomationAndAccessControl.jfif",
-  servicing: "/location/tring/ElectricGateServicingAndRepairs.jfif",
+  hero: "/location/tring/hero.webp",
+  driveway: "/location/tring/BespokeDrivewayGates.webp",
+  metal: "/location/tring/BespokeMetalElectricGates.webp",
+  wood: "/location/tring/AutomatedHardwoodDrivewayGates.webp",
+  aluminium: "/location/tring/ModernAluminiumElectricGates.webp",
+  swing: "/location/tring/ModernSwingGates.webp",
+  sliding: "/location/tring/ModernSlidingGates.webp",
+  automation: "/location/tring/ElectricGateAutomationAndAccessControl.webp",
+  servicing: "/location/tring/ElectricGateServicingAndRepairs.webp",
 };
 
 const faqs = [
