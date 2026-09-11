@@ -3,14 +3,14 @@
 import Image from "next/image";
 
 const images = {
-  driveway: "/location/high-wycombe/BespokeDrivewayGates.jfif",
-  metal: "/location/high-wycombe/MetalElectricGates.jfif",
-  wooden: "/location/high-wycombe/WoodenElectricGates.jfif",
-  aluminium: "/location/high-wycombe/AluminiumElectricGates.jfif",
-  swing: "/location/high-wycombe/ModernSwingGates.jfif",
-  sliding: "/location/high-wycombe/ModernSlidingGates.jfif",
-  automation: "/location/high-wycombe/GateAutomationAccessControl.jfif",
-  servicing: "/location/high-wycombe/ElectricGateServicingRepairs.jfif",
+  driveway: "/location/high-wycombe/BespokeDrivewayGates.webp",
+  metal: "/location/high-wycombe/MetalElectricGates.webp",
+  wooden: "/location/high-wycombe/WoodenElectricGates.webp",
+  aluminium: "/location/high-wycombe/AluminiumElectricGates.webp",
+  swing: "/location/high-wycombe/ModernSwingGates.webp",
+  sliding: "/location/high-wycombe/ModernSlidingGates.webp",
+  automation: "/location/high-wycombe/GateAutomationAccessControl.webp",
+  servicing: "/location/high-wycombe/ElectricGateServicingRepairs.webp",
 };
 
 function SectionLabel({ children }) {
