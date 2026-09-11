@@ -3,14 +3,14 @@
 import Image from "next/image";
 
 const images = {
-  driveway: "/location/marlow/BespokeDrivewayGates.jfif",
-  metal: "/location/marlow/MetalElectricGates.jfif",
-  wooden: "/location/marlow/WoodenElectricGates.jfif",
-  aluminium: "/location/marlow/AluminiumElectricGates.jfif",
-  swing: "/location/marlow/ModernSwingGates.jfif",
-  sliding: "/location/marlow/ModernSlidingGates.jfif",
-  automation: "/location/marlow/GateAutomationAccessControl.jfif",
-  servicing: "/location/marlow/ElectricGateServicingRepairs.jfif",
+  driveway: "/location/marlow/BespokeDrivewayGates.webp",
+  metal: "/location/marlow/MetalElectricGates.webp",
+  wooden: "/location/marlow/WoodenElectricGates.webp",
+  aluminium: "/location/marlow/AluminiumElectricGates.webp",
+  swing: "/location/marlow/ModernSwingGates.webp",
+  sliding: "/location/marlow/ModernSlidingGates.webp",
+  automation: "/location/marlow/GateAutomationAccessControl.webp",
+  servicing: "/location/marlow/ElectricGateServicingRepairs.webp",
 };
 
 function SectionLabel({ children }) {
