@@ -21,14 +21,14 @@ const coveredAreas = [
     name: "Great Missenden",
     href: "/electric-gates-great-missenden",
   },
-  {
-    name: "Sunningdale",
-    href: "/electric-gates-sunninghill-sunningdale/",
-  },
-  {
-    name: "Sunninghill",
-    href: "/electric-gates-sunninghill-sunningdale/",
-  },
+  // {
+  //   name: "Sunningdale",
+  //   href: "/electric-gates-sunninghill-sunningdale/",
+  // },
+  // {
+  //   name: "Sunninghill",
+  //   href: "/electric-gates-sunninghill-sunningdale/",
+  // },
   {
     name: "Tring",
     href: "/electric-gates-tring",
@@ -39,15 +39,15 @@ const coveredAreas = [
   },
   {
     name: "Marlow",
-    href: "/marlow-electric-metal-wooden-gates/",
+    href: "/electric-gates-marlow",
   },
   {
     name: "Chalfont St Giles",
-    href: "/driveway-gates-chalfont-st-giles/",
+    href: "/electric-gates-chalfont-st-giles",
   },
   {
     name: "Chalfont St Peter",
-    href: "/chalfont-st-peter-electric-metal-wooden-gates/",
+    href: "/electric-gates-chalfont-st-peter",
   },
   {
     name: "Ascot",

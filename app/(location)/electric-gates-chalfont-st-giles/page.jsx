@@ -3,14 +3,22 @@
 import Image from "next/image";
 
 const images = {
-  driveway: "/location/high-wycombe/BespokeDrivewayGates.jfif",
-  metal: "/location/high-wycombe/MetalElectricGates.jfif",
-  wooden: "/location/high-wycombe/WoodenElectricGates.jfif",
-  aluminium: "/location/high-wycombe/AluminiumElectricGates.jfif",
-  swing: "/location/high-wycombe/ModernSwingGates.jfif",
-  sliding: "/location/high-wycombe/ModernSlidingGates.jfif",
-  automation: "/location/high-wycombe/GateAutomationAccessControl.jfif",
-  servicing: "/location/high-wycombe/ElectricGateServicingRepairs.jfif",
+  driveway:
+    "/location/chalfont-st-giles/BespokeDrivewayGates.jfif",
+  metal:
+    "/location/chalfont-st-giles/MetalElectricGates.jfif",
+  wooden:
+    "/location/chalfont-st-giles/WoodenElectricGates.jfif",
+  aluminium:
+    "/location/chalfont-st-giles/AluminiumElectricGates.jfif",
+  swing:
+    "/location/chalfont-st-giles/ModernSwingGates.jfif",
+  sliding:
+    "/location/chalfont-st-giles/ModernSlidingGates.jfif",
+  automation:
+    "/location/chalfont-st-giles/GateAutomationAccessControl.jfif",
+  servicing:
+    "/location/chalfont-st-giles/ElectricGateServicingRepairs.jfif",
 };
 
 function SectionLabel({ children }) {
@@ -35,8 +43,13 @@ function MaterialCard({ title, text, image, alt }) {
       </div>
 
       <div className="p-7">
-        <h3 className="text-xl font-semibold text-[#182433]">{title}</h3>
-        <p className="mt-3 text-base leading-7 text-[#667085]">{text}</p>
+        <h3 className="text-xl font-semibold text-[#182433]">
+          {title}
+        </h3>
+
+        <p className="mt-3 text-base leading-7 text-[#667085]">
+          {text}
+        </p>
       </div>
     </article>
   );
@@ -56,14 +69,19 @@ function GateTypeCard({ title, text, image, alt }) {
       </div>
 
       <div className="p-7">
-        <h3 className="text-xl font-semibold text-[#182433]">{title}</h3>
-        <p className="mt-3 text-base leading-7 text-[#667085]">{text}</p>
+        <h3 className="text-xl font-semibold text-[#182433]">
+          {title}
+        </h3>
+
+        <p className="mt-3 text-base leading-7 text-[#667085]">
+          {text}
+        </p>
       </div>
     </article>
   );
 }
 
-export default function HighWycombeElectricGatesPage() {
+export default function ChalfontStGilesElectricGatesPage() {
   return (
     <main className="bg-white text-[#1F2937]">
 
@@ -71,29 +89,27 @@ export default function HighWycombeElectricGatesPage() {
       <section className="bg-[#F8FAFC]">
         <div className="mx-auto max-w-7xl px-5 py-10 sm:px-8 md:py-16 lg:px-10 lg:py-20">
 
-         
-
           {/* Hero Content */}
           <div className="mx-auto max-w-5xl text-center">
 
             <div className="mb-6 inline-flex items-center rounded-full border border-[#E4E9EE] bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-[#415A77]">
-              Gate Smart · High Wycombe
+              Gate Smart · Chalfont St Giles
             </div>
 
             <h1 className="text-[38px] font-semibold leading-[1.08] tracking-[-0.03em] text-[#182433] md:text-[56px] lg:text-[64px]">
               Electric Gates
               <span className="block text-[#415A77]">
-                High Wycombe
+                Chalfont St Giles
               </span>
             </h1>
 
             <p className="mx-auto mt-7 max-w-3xl text-base leading-8 text-[#667085] md:text-lg">
-              Looking for professionally designed electric gates in High
-              Wycombe? Gate Smart creates bespoke automated entrances for
-              homes, developments and commercial properties.
+              Looking for professionally designed electric gates in
+              Chalfont St Giles? Gate Smart creates bespoke automated
+              entrances for homes, developments and commercial properties.
             </p>
 
-          
+         
 
             <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
               <a
@@ -110,6 +126,7 @@ export default function HighWycombeElectricGatesPage() {
                 Request a Survey
               </a>
             </div>
+
           </div>
 
           {/* Stats */}
@@ -118,7 +135,7 @@ export default function HighWycombeElectricGatesPage() {
             {[
               ["25+", "Years Experience"],
               ["Bespoke", "Gate Design"],
-              ["Local", "High Wycombe Specialist"],
+              ["Local", "Chalfont St Giles Specialist"],
             ].map(([number, label]) => (
               <div
                 key={label}
@@ -135,11 +152,12 @@ export default function HighWycombeElectricGatesPage() {
             ))}
 
           </div>
+
         </div>
       </section>
 
 
-      
+ 
 
 
       {/* BESPOKE DRIVEWAY */}
@@ -149,12 +167,13 @@ export default function HighWycombeElectricGatesPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
 
             <div>
+
               <SectionLabel>
                 Bespoke Driveway Gates
               </SectionLabel>
 
               <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#182433] md:text-4xl">
-                Bespoke driveway gates in High Wycombe
+                Bespoke driveway gates in Chalfont St Giles
               </h2>
 
               <p className="mt-6 text-base leading-8 text-[#667085]">
@@ -172,12 +191,13 @@ export default function HighWycombeElectricGatesPage() {
                 fencing and railings, with manual pedestrian access and
                 matching sections considered as part of the wider entrance.
               </p>
+
             </div>
 
             <div className="relative overflow-hidden rounded-3xl">
               <Image
                 src={images.driveway}
-                alt="Bespoke electric driveway gates installed near High Wycombe"
+                alt="Bespoke electric driveway gates installed near Chalfont St Giles"
                 width={1200}
                 height={850}
                 className="h-[420px] w-full object-cover"
@@ -185,6 +205,7 @@ export default function HighWycombeElectricGatesPage() {
             </div>
 
           </div>
+
         </div>
       </section>
 
@@ -194,6 +215,7 @@ export default function HighWycombeElectricGatesPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
 
           <div className="mx-auto max-w-3xl text-center">
+
             <SectionLabel>
               Gate Materials
             </SectionLabel>
@@ -203,9 +225,10 @@ export default function HighWycombeElectricGatesPage() {
             </h2>
 
             <p className="mt-5 text-base leading-8 text-[#667085]">
-              Select a material and finish that works with the character,
+              Choose a material and finish that works with the character,
               architecture and practical requirements of your property.
             </p>
+
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -213,25 +236,26 @@ export default function HighWycombeElectricGatesPage() {
             <MaterialCard
               title="Metal gates"
               image={images.metal}
-              alt="Automated metal gates in High Wycombe"
+              alt="Automated metal gates in Chalfont St Giles"
               text="Strong and versatile, with options ranging from simple modern lines to more decorative designs. Suitable finishes help protect the gate and provide a colour that complements the property."
             />
 
             <MaterialCard
               title="Wooden gates"
               image={images.wooden}
-              alt="Wooden electric driveway gates in High Wycombe"
+              alt="Wooden electric driveway gates in Chalfont St Giles"
               text="A natural choice for traditional, rural and character properties. Timber needs ongoing maintenance, but the right construction and protective treatment can create a warm, attractive entrance."
             />
 
             <MaterialCard
               title="Aluminium gates"
               image={images.aluminium}
-              alt="Modern aluminium electric gates in High Wycombe"
+              alt="Modern aluminium electric gates in Chalfont St Giles"
               text="Lightweight, strong and low maintenance. Aluminium is particularly useful for contemporary designs and privacy styles, with a wide choice of colours and finishes."
             />
 
           </div>
+
         </div>
       </section>
 
@@ -241,6 +265,7 @@ export default function HighWycombeElectricGatesPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
 
           <div className="mx-auto max-w-3xl text-center">
+
             <SectionLabel>
               Gate Opening Options
             </SectionLabel>
@@ -250,9 +275,10 @@ export default function HighWycombeElectricGatesPage() {
             </h2>
 
             <p className="mt-5 text-base leading-8 text-[#667085]">
-              The right opening arrangement depends on your driveway,
-              available space and how the entrance will be used.
+              The right opening arrangement depends on the available space,
+              driveway layout and how the entrance will be used.
             </p>
+
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -260,23 +286,21 @@ export default function HighWycombeElectricGatesPage() {
             <GateTypeCard
               title="Swing gates"
               image={images.swing}
-              alt="Modern electric swing gates in High Wycombe"
+              alt="Modern electric swing gates in Chalfont St Giles"
               text="Swing gates are a popular option where there is enough clear space for the leaves to open safely. They can provide a traditional or contemporary entrance depending on the gate design."
             />
 
             <GateTypeCard
               title="Sliding gates"
               image={images.sliding}
-              alt="Modern electric sliding gates in High Wycombe"
+              alt="Modern electric sliding gates in Chalfont St Giles"
               text="Sliding gates move sideways along the entrance and can suit wider openings or sites where a swing arc would be impractical. Cantilever and tracked arrangements have different ground and space requirements."
             />
 
           </div>
 
           <p className="mx-auto mt-8 max-w-3xl text-center text-base leading-8 text-[#667085]">
-            We recommend the layout only after assessing the site, including
-            available ground space, driveway conditions and the way the gate
-            will be used.
+            We recommend the layout only after assessing the site.
           </p>
 
         </div>
@@ -292,7 +316,7 @@ export default function HighWycombeElectricGatesPage() {
             <div className="relative order-2 overflow-hidden rounded-3xl lg:order-1">
               <Image
                 src={images.automation}
-                alt="Gate automation and access control system in High Wycombe"
+                alt="Gate automation and access control system in Chalfont St Giles"
                 width={1200}
                 height={850}
                 className="h-[420px] w-full object-cover"
@@ -300,29 +324,31 @@ export default function HighWycombeElectricGatesPage() {
             </div>
 
             <div className="order-1 lg:order-2">
+
               <SectionLabel>
                 Automation & Access Control
               </SectionLabel>
 
               <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#182433] md:text-4xl">
-                Gate automation and access control in High Wycombe
+                Gate automation and access control in Chalfont St Giles
               </h2>
 
               <p className="mt-6 text-base leading-8 text-[#667085]">
                 Automation can make an entrance more convenient while
                 allowing access to be controlled. Depending on the site,
                 operation may be provided by underground or above-ground
-                equipment.
+                equipment. Access options can include remote controls,
+                keypads, intercoms and GSM-based systems.
               </p>
 
               <p className="mt-5 text-base leading-8 text-[#667085]">
-                Access options can include remote controls, keypads,
-                intercoms and GSM-based systems. The correct choice depends on
-                whether the entrance serves one home, several properties,
-                staff, deliveries or regular visitors.
+                The correct choice depends on whether the entrance serves one
+                home, several properties, staff, deliveries or regular
+                visitors.
               </p>
 
               <div className="mt-7 rounded-3xl border border-[#E4E9EE] bg-[#F8FAFC] p-6">
+
                 <h3 className="text-lg font-semibold text-[#182433]">
                   Safety is part of the design
                 </h3>
@@ -333,11 +359,13 @@ export default function HighWycombeElectricGatesPage() {
                   appropriate safety devices, manual release and the forces
                   generated during operation.
                 </p>
+
               </div>
 
             </div>
 
           </div>
+
         </div>
       </section>
 
@@ -349,12 +377,13 @@ export default function HighWycombeElectricGatesPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
 
             <div>
+
               <SectionLabel>
                 Servicing & Repairs
               </SectionLabel>
 
               <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#182433] md:text-4xl">
-                Electric gate servicing and repairs in High Wycombe
+                Electric gate servicing and repairs in Chalfont St Giles
               </h2>
 
               <p className="mt-6 text-base leading-8 text-[#667085]">
@@ -376,12 +405,13 @@ export default function HighWycombeElectricGatesPage() {
               <p className="mt-5 text-base leading-8 text-[#667085]">
                 We can advise after assessing the system and its use.
               </p>
+
             </div>
 
             <div className="relative overflow-hidden rounded-3xl">
               <Image
                 src={images.servicing}
-                alt="Gate Smart engineer servicing electric gates in High Wycombe"
+                alt="Gate Smart engineer servicing electric gates in Chalfont St Giles"
                 width={1200}
                 height={850}
                 className="h-[420px] w-full object-cover"
@@ -389,6 +419,7 @@ export default function HighWycombeElectricGatesPage() {
             </div>
 
           </div>
+
         </div>
       </section>
 
@@ -398,6 +429,7 @@ export default function HighWycombeElectricGatesPage() {
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
 
           <div className="mx-auto max-w-3xl text-center">
+
             <SectionLabel>
               Why Gate Smart
             </SectionLabel>
@@ -405,6 +437,7 @@ export default function HighWycombeElectricGatesPage() {
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#182433] md:text-4xl">
               Why choose Gate Smart?
             </h2>
+
           </div>
 
           <div className="mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -432,6 +465,7 @@ export default function HighWycombeElectricGatesPage() {
             ))}
 
           </div>
+
         </div>
       </section>
 
@@ -441,31 +475,34 @@ export default function HighWycombeElectricGatesPage() {
         <div className="mx-auto max-w-4xl px-5 py-16 sm:px-8 lg:py-20">
 
           <div className="text-center">
+
             <SectionLabel>
               FAQs
             </SectionLabel>
 
             <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#182433] md:text-4xl">
-              Frequently asked questions about electric gates in High Wycombe
+              Frequently asked questions about electric gates in Chalfont St Giles
             </h2>
+
           </div>
 
           <div className="mt-12 space-y-4">
 
-            <details className="group rounded-3xl border border-[#E4E9EE] bg-white p-6">
-              <summary className="cursor-pointer list-none pr-8 text-lg font-semibold text-[#182433]">
-                Can Gate Smart repair an electric gate in High Wycombe?
+            <details className="rounded-3xl border border-[#E4E9EE] bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-[#182433]">
+                Will you survey my driveway before recommending automation?
               </summary>
 
               <p className="mt-4 text-base leading-7 text-[#667085]">
-                Yes. We provide fault finding and repairs for automated gate
-                systems, subject to parts availability and the condition and
-                safety of the existing installation.
+                Yes. A proper survey allows us to assess dimensions, levels,
+                posts, hinges or track, power, access needs and potential
+                safety hazards before specifying a system.
               </p>
             </details>
 
-            <details className="group rounded-3xl border border-[#E4E9EE] bg-white p-6">
-              <summary className="cursor-pointer list-none pr-8 text-lg font-semibold text-[#182433]">
+
+            <details className="rounded-3xl border border-[#E4E9EE] bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-[#182433]">
                 How much do electric gates cost?
               </summary>
 
@@ -477,8 +514,9 @@ export default function HighWycombeElectricGatesPage() {
               </p>
             </details>
 
-            <details className="group rounded-3xl border border-[#E4E9EE] bg-white p-6">
-              <summary className="cursor-pointer list-none pr-8 text-lg font-semibold text-[#182433]">
+
+            <details className="rounded-3xl border border-[#E4E9EE] bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-[#182433]">
                 How long does an electric gate installation take?
               </summary>
 
@@ -490,8 +528,9 @@ export default function HighWycombeElectricGatesPage() {
               </p>
             </details>
 
-            <details className="group rounded-3xl border border-[#E4E9EE] bg-white p-6">
-              <summary className="cursor-pointer list-none pr-8 text-lg font-semibold text-[#182433]">
+
+            <details className="rounded-3xl border border-[#E4E9EE] bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-[#182433]">
                 Can you service a gate installed by another company?
               </summary>
 
@@ -502,8 +541,9 @@ export default function HighWycombeElectricGatesPage() {
               </p>
             </details>
 
-            <details className="group rounded-3xl border border-[#E4E9EE] bg-white p-6">
-              <summary className="cursor-pointer list-none pr-8 text-lg font-semibold text-[#182433]">
+
+            <details className="rounded-3xl border border-[#E4E9EE] bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-[#182433]">
                 What happens if there is a power cut?
               </summary>
 
@@ -516,6 +556,7 @@ export default function HighWycombeElectricGatesPage() {
             </details>
 
           </div>
+
         </div>
       </section>
 
@@ -525,17 +566,17 @@ export default function HighWycombeElectricGatesPage() {
         <div className="mx-auto max-w-4xl px-5 py-16 text-center sm:px-8 lg:py-20">
 
           <div className="mx-auto mb-5 inline-flex rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white/80">
-            Gate Smart · High Wycombe
+            Gate Smart · Chalfont St Giles
           </div>
 
           <h2 className="text-3xl font-semibold tracking-[-0.02em] text-white md:text-4xl">
-            Request a survey for electric gates in High Wycombe
+            Request a survey for electric gates in Chalfont St Giles
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-white/70 md:text-lg">
             Planning a new automated entrance, looking to upgrade existing
             gates or need help with a fault? Speak to Gate Smart about
-            electric gates in High Wycombe.
+            electric gates in Chalfont St Giles.
           </p>
 
           <p className="mt-6 text-base font-medium text-white">
@@ -566,12 +607,12 @@ export default function HighWycombeElectricGatesPage() {
             </a>
 
           </div>
+
         </div>
       </section>
 
 
-     
-
+      
     </main>
   );
 }
