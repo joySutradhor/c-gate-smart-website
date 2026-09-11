@@ -9,13 +9,15 @@ const images = {
   metal: "/location/beaconsfield/BespokeMetalElectricGates.webp",
   wooden: "/location/beaconsfield/AutomatedHardwoodDrivewayGates.webp",
   aluminium: "/location/beaconsfield/ModernAluminiumElectricGates.webp",
-  automation: "/location/beaconsfield/ElectricGateAutomationAndAccessControl.webp",
+  automation:
+    "/location/beaconsfield/ElectricGateAutomationAndAccessControl.webp",
   servicing: "/location/beaconsfield/ElectricGateServicingAndRepairs.webp",
 };
 
 const faqs = [
   {
-    question: "Can you design gates to suit a traditional Beaconsfield property?",
+    question:
+      "Can you design gates to suit a traditional Beaconsfield property?",
     answer:
       "Yes. We offer bespoke metal, timber and aluminium designs, so the proportions, finish and level of privacy can be chosen to suit both traditional and contemporary homes.",
   },
@@ -67,36 +69,27 @@ export default function BeaconsfieldElectricGates() {
       {/* =====================================================
           HERO
       ====================================================== */}
-      <section className="relative overflow-hidden bg-[#F8FAFC]">
-        <div className="mx-auto max-w-7xl px-6 pb-16 pt-8 lg:px-8 lg:pb-24 lg:pt-10">
-          
-          {/* Breadcrumb */}
-          <div className="mb-12 flex items-center justify-center gap-2 text-sm text-[#667085]">
-            <Link href="/" className="transition hover:text-[#415A77]">
-              Home
-            </Link>
-            <span>/</span>
-            <span>Electric Gates Beaconsfield</span>
-          </div>
-
-          <div className="mx-auto max-w-4xl text-center">
-            <span className="inline-flex rounded-full border border-[#E4E9EE] bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77] shadow-sm">
+      <section className="bg-[#F8FAFC]">
+        <div className="mx-auto max-w-7xl px-5 py-10 sm:px-8 md:py-16 lg:px-10 lg:py-20">
+         
+          {/* Hero Content */}
+          <div className="mx-auto max-w-5xl text-center">
+            <div className="mb-6 inline-flex items-center rounded-full border border-[#E4E9EE] bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-[#415A77]">
               Gate Specialists in Beaconsfield
-            </span>
+            </div>
 
-            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-[#182433] sm:text-5xl lg:text-6xl">
+            <h1 className="text-[38px] font-semibold leading-[1.08] tracking-[-0.03em] text-[#182433] md:text-[56px] lg:text-[64px]">
               Electric Gates
-              <span className="block text-[#415A77]">
-                Beaconsfield
-              </span>
+              <span className="block text-[#415A77]">Beaconsfield</span>
             </h1>
 
-            <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-[#667085] sm:text-lg">
-              Bespoke electric gates designed around your property,
-              from initial survey and design through to installation,
-              automation and ongoing servicing.
+            <p className="mx-auto mt-7 max-w-3xl text-base leading-8 text-[#667085] md:text-lg">
+              Bespoke electric gates designed around your property, from initial
+              survey and design through to installation, automation and ongoing
+              servicing.
             </p>
 
+            {/* CTA */}
             <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
               <a
                 href="tel:01494578656"
@@ -114,16 +107,8 @@ export default function BeaconsfieldElectricGates() {
             </div>
           </div>
 
-          {/* Hero image */}
-          <div className="mx-auto mt-14 max-w-6xl overflow-hidden rounded-[2rem]">
-            <img
-              src={images.hero}
-              alt="Bespoke electric driveway gates near Beaconsfield"
-              className="h-[340px] w-full object-cover sm:h-[450px] lg:h-[560px]"
-            />
-          </div>
-
-          <div className="mx-auto mt-8 grid max-w-5xl grid-cols-2 gap-4 sm:grid-cols-4">
+          {/* Stats */}
+          <div className="mx-auto mt-14 grid max-w-5xl grid-cols-2 gap-4 sm:grid-cols-4">
             {[
               ["25+", "Years Experience"],
               ["Bespoke", "Gate Design"],
@@ -132,12 +117,13 @@ export default function BeaconsfieldElectricGates() {
             ].map(([number, label]) => (
               <div
                 key={label}
-                className="rounded-2xl border border-[#E4E9EE] bg-white p-5 text-center"
+                className="rounded-3xl border border-[#E4E9EE] bg-white p-6 text-center"
               >
-                <div className="text-xl font-semibold text-[#182433]">
+                <div className="text-xl font-semibold text-[#182433] md:text-2xl">
                   {number}
                 </div>
-                <div className="mt-1 text-xs text-[#667085]">{label}</div>
+
+                <div className="mt-1 text-sm text-[#667085]">{label}</div>
               </div>
             ))}
           </div>
@@ -149,7 +135,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-white py-20 lg:py-28">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8">
-          
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
               Electric Gates in Beaconsfield
@@ -162,8 +147,8 @@ export default function BeaconsfieldElectricGates() {
             <div className="mt-6 space-y-5 text-base leading-7 text-[#667085]">
               <p>
                 Looking for professionally designed electric gates in
-                Beaconsfield? Gate Smart creates bespoke automated entrances
-                for homes, developments and commercial properties.
+                Beaconsfield? Gate Smart creates bespoke automated entrances for
+                homes, developments and commercial properties.
               </p>
 
               <p>
@@ -205,7 +190,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-[#F8FAFC] py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          
           <div className="mx-auto max-w-3xl text-center">
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
               Bespoke Driveway Gates
@@ -262,7 +246,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-white py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          
           <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
@@ -281,9 +264,7 @@ export default function BeaconsfieldElectricGates() {
 
               <div className="mt-8 space-y-5">
                 <div className="rounded-2xl border border-[#E4E9EE] p-6">
-                  <h3 className="font-semibold text-[#182433]">
-                    Swing Gates
-                  </h3>
+                  <h3 className="font-semibold text-[#182433]">Swing Gates</h3>
                   <p className="mt-2 text-sm leading-6 text-[#667085]">
                     A popular choice where there is enough clear space for the
                     gate leaves to open safely into the driveway.
@@ -295,8 +276,8 @@ export default function BeaconsfieldElectricGates() {
                     Sliding Gates
                   </h3>
                   <p className="mt-2 text-sm leading-6 text-[#667085]">
-                    Sliding gates can work particularly well for wider
-                    openings or entrances where a swing arc is impractical.
+                    Sliding gates can work particularly well for wider openings
+                    or entrances where a swing arc is impractical.
                   </p>
                 </div>
               </div>
@@ -318,7 +299,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-[#182433] py-20 text-white lg:py-28">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8">
-          
           <div className="overflow-hidden rounded-[2rem]">
             <img
               src={images.automation}
@@ -377,7 +357,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-[#F8FAFC] py-20 lg:py-28">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 lg:px-8">
-          
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
               Servicing & Repairs
@@ -435,7 +414,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-white py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          
           <div className="max-w-2xl">
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
               Why Gate Smart
@@ -451,12 +429,32 @@ export default function BeaconsfieldElectricGates() {
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              ["01", "25+ Years Experience", "Established experience across gates and automation."],
-              ["02", "Bespoke Design", "Every entrance is designed around the property."],
-              ["03", "Multiple Materials", "Metal, wooden and aluminium gate options."],
+              [
+                "01",
+                "25+ Years Experience",
+                "Established experience across gates and automation.",
+              ],
+              [
+                "02",
+                "Bespoke Design",
+                "Every entrance is designed around the property.",
+              ],
+              [
+                "03",
+                "Multiple Materials",
+                "Metal, wooden and aluminium gate options.",
+              ],
               ["04", "Automation", "Swing and sliding automation solutions."],
-              ["05", "Access Control", "Remote, keypad, intercom and GSM options."],
-              ["06", "Aftercare", "Servicing, fault finding and repair support."],
+              [
+                "05",
+                "Access Control",
+                "Remote, keypad, intercom and GSM options.",
+              ],
+              [
+                "06",
+                "Aftercare",
+                "Servicing, fault finding and repair support.",
+              ],
             ].map(([number, title, text]) => (
               <div
                 key={number}
@@ -470,9 +468,7 @@ export default function BeaconsfieldElectricGates() {
                   {title}
                 </h3>
 
-                <p className="mt-2 text-sm leading-6 text-[#667085]">
-                  {text}
-                </p>
+                <p className="mt-2 text-sm leading-6 text-[#667085]">{text}</p>
               </div>
             ))}
           </div>
@@ -521,7 +517,6 @@ export default function BeaconsfieldElectricGates() {
       ====================================================== */}
       <section className="bg-white py-20 lg:py-28">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
-          
           <div className="text-center">
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#415A77]">
               Frequently Asked Questions

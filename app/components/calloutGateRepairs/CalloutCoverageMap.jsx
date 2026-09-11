@@ -11,15 +11,15 @@ const coveredAreas = [
   },
   {
     name: "Gerrards Cross",
-    href: "/wooden-gates-gerrards-cross/",
+    href: "/electric-gates-gerrards-cross",
   },
   {
     name: "Amersham",
-    href: "/gatesmart/driveway-gates-railings-amersham/",
+    href: "/electric-gates-amersham",
   },
   {
     name: "Great Missenden",
-    href: "/metal-wooden-gates-great-missenden/",
+    href: "/electric-gates-great-missenden",
   },
   {
     name: "Sunningdale",
@@ -31,11 +31,11 @@ const coveredAreas = [
   },
   {
     name: "Tring",
-    href: "/electric-driveway-gates-tring/",
+    href: "/electric-gates-tring",
   },
   {
     name: "High Wycombe",
-    href: "/electric-driveway-gates-high-wycombe/",
+    href: "/electric-gates-high-wycombe",
   },
   {
     name: "Marlow",
