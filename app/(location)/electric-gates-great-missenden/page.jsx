@@ -589,7 +589,7 @@ export default function GreatMissendenElectricGatesPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#182433]">
+      <section className="bg-[#182433] border-b border-white/10">
         <div className="mx-auto max-w-5xl px-5 py-20 text-center md:px-8 md:py-24">
           <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#B8C7D8]">
             Start Your Project

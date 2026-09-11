@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 
-const rootUrl = "http://localhost:3000/";
+const rootUrl = "https://c-gate-smart-website.vercel.app";
 
 const coveredAreas = [
   {
@@ -55,11 +55,11 @@ const coveredAreas = [
   },
   {
     name: "Prestwood",
-    href: "/metal-gates-railings-prestwood/",
+    href: "/electric-gates-prestwood",
   },
   {
     name: "Bovingdon",
-    href: "/gate-installation-bovingdon/",
+    href: "/electric-gates-bovingdon",
   },
 ];
 
