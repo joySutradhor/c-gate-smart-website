@@ -4,16 +4,16 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = {
-  driveway: "/location/chalfont-st-peter/BespokeDrivewayGates.jfif",
-  metal: "/location/chalfont-st-peter/MetalElectricGates.jfif",
-  wooden: "/location/chalfont-st-peter/WoodenElectricGates.jfif",
-  aluminium: "/location/chalfont-st-peter/AluminiumElectricGates.jfif",
-  swing: "/location/chalfont-st-peter/ModernSwingGates.jfif",
-  sliding: "/location/chalfont-st-peter/ModernSlidingGates.jfif",
+  driveway: "/location/chalfont-st-peter/BespokeDrivewayGates.webp",
+  metal: "/location/chalfont-st-peter/MetalElectricGates.webp",
+  wooden: "/location/chalfont-st-peter/WoodenElectricGates.webp",
+  aluminium: "/location/chalfont-st-peter/AluminiumElectricGates.webp",
+  swing: "/location/chalfont-st-peter/ModernSwingGates.webp",
+  sliding: "/location/chalfont-st-peter/ModernSlidingGates.webp",
   automation:
-    "/location/chalfont-st-peter/GateAutomationAccessControl.jfif",
+    "/location/chalfont-st-peter/GateAutomationAccessControl.webp",
   servicing:
-    "/location/chalfont-st-peter/ElectricGateServicingRepairs.jfif",
+    "/location/chalfont-st-peter/ElectricGateServicingRepairs.webp",
 };
 
 function SectionLabel({ children }) {

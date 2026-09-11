@@ -5,14 +5,14 @@ import { useState } from "react";
 import Link from "next/link";
 
 const images = {
-  driveway: "/location/prestwood/BespokeDrivewayGates.jfif",
-  metal: "/location/prestwood/MetalElectricGates.jfif",
-  wooden: "/location/prestwood/WoodenElectricGates.jfif",
-  aluminium: "/location/prestwood/AluminiumElectricGates.jfif",
-  swing: "/location/prestwood/ModernSwingGates.jfif",
-  sliding: "/location/prestwood/ModernSlidingGates.jfif",
-  automation: "/location/prestwood/GateAutomationAccessControl.jfif",
-  servicing: "/location/prestwood/ElectricGateServicingRepairs.jfif",
+  driveway: "/location/prestwood/BespokeDrivewayGates.webp",
+  metal: "/location/prestwood/MetalElectricGates.webp",
+  wooden: "/location/prestwood/WoodenElectricGates.webp",
+  aluminium: "/location/prestwood/AluminiumElectricGates.webp",
+  swing: "/location/prestwood/ModernSwingGates.webp",
+  sliding: "/location/prestwood/ModernSlidingGates.webp",
+  automation: "/location/prestwood/GateAutomationAccessControl.webp",
+  servicing: "/location/prestwood/ElectricGateServicingRepairs.webp",
 };
 
 const SectionLabel = ({ children }) => (

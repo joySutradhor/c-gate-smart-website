@@ -4,14 +4,14 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = {
-  driveway: "/location/ascot/BespokeDrivewayGates.jfif",
-  metal: "/location/ascot/MetalElectricGates.jfif",
-  wooden: "/location/ascot/WoodenElectricGates.jfif",
-  aluminium: "/location/ascot/AluminiumElectricGates.jfif",
-  swing: "/location/ascot/ModernSwingGates.jfif",
-  sliding: "/location/ascot/ModernSlidingGates.jfif",
-  automation: "/location/ascot/GateAutomationAccessControl.jfif",
-  servicing: "/location/ascot/ElectricGateServicingRepairs.jfif",
+  driveway: "/location/ascot/BespokeDrivewayGates.webp",
+  metal: "/location/ascot/MetalElectricGates.webp",
+  wooden: "/location/ascot/WoodenElectricGates.webp",
+  aluminium: "/location/ascot/AluminiumElectricGates.webp",
+  swing: "/location/ascot/ModernSwingGates.webp",
+  sliding: "/location/ascot/ModernSlidingGates.webp",
+  automation: "/location/ascot/GateAutomationAccessControl.webp",
+  servicing: "/location/ascot/ElectricGateServicingRepairs.webp",
 };
 
 function SectionLabel({ children }) {
